@@ -44,7 +44,7 @@ function Todo() {
 
   return (
     <div className='container'>
-        <h3 className='text-center'>Todo - Items</h3>
+        <h3 className='text-center mt-4' style={{backgroundColor : "cyan"}}>TODO - iTEMS</h3>
         {tasks.map((task, index) => (
             <Task 
             task={task} 
